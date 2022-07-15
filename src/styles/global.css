@@ -1,0 +1,91 @@
+/* DELETING BROWSER STYLES */
+@import url("./reset.css");
+
+/* APP */
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  display: flex;
+}
+
+/* LOGIN */
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #363a3f;
+}
+
+.login > button {
+  display: inline-block;
+  background: rgba(17, 178, 37, 0.1);
+  border: 1px solid #11b225;
+  color: #11b225;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.login > button:hover {
+  background: #11b225;
+  color: #363a3f;
+}
+
+.login > div > img {
+  /* object-fit: contain; */
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* MAIN PAGE */
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #363a3f;
+}
+.logoutButton {
+  display: inline-block;
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.logoutButton:hover {
+  background: #ff0000;
+  color: #363a3f;
+}
